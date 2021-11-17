@@ -1,0 +1,158 @@
+@media only screen and (min-width: 640px) {
+  body {
+    display: none;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/lend_me.png);
+  background-repeat: no-repeat;
+  background-size: 100vw 100%;
+  min-height: 100vh;
+  font-family: "DM Sans", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  margin: 3rem 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.hero h4 {
+  width: auto;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 35px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.box {
+  background: white;
+  margin: auto auto;
+  width: 90%;
+  min-height: 350px;
+  height: auto;
+  border-radius: 15px;
+  padding: 39px 20px;
+  padding-bottom: 64px;
+}
+
+.review {
+  margin-bottom: 42px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #012224;
+}
+
+.trans-amt {
+  height: 40px;
+  margin-bottom: 31px;
+
+  p {
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #7a83a2;
+  }
+
+  h5 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #000000;
+  }
+
+  h4 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #311169;
+  }
+
+  .trans-type {
+    margin-right: 32%;
+  }
+}
+
+.transaction-pin {
+  width: 100%;
+  margin-bottom: 73px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  margin-bottom: 26px;
+  background: #e3ecf6;
+}
+
+.transaction-pin h4 {
+  font-size: 10px;
+  line-height: 10px;
+  text-transform: uppercase;
+  color: #4c4079;
+  margin-bottom: 20px;
+}
+
+.password-input {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.password-input-item {
+  margin-right: 2.5%;
+}
+
+.password-input-item input {
+  width: 100%;
+  height: 58px;
+  border: 1px solid #b3a9c5;
+  box-sizing: border-box;
+  border-radius: 5px;
+  align-items: center;
+  font-size: 45px;
+  color: #4c4079;
+  padding: 0 35%;
+}
+
+.btn {
+  width: 100%;
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #5f22cb;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
